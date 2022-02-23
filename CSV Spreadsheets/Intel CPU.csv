@@ -1,0 +1,105 @@
+Name,Integrated Graphics,Cores,Clock Speed,Turbo Boost,Price
+Intel Core i7-9700K,Intel UHD Graphics 630,8,3.6 GHz,4.9 GHz,345.45
+Intel Core i5-9600K,Intel UHD Graphics 630,6,3.7 GHz,4.6 GHz,174.99
+Intel Core i9-9900K,Intel UHD Graphics 630,8,3.6 GHz,5 GHz,560.45
+Intel Core i5-9400F,None,6,2.9 GHz,4.1 GHz,133.08
+Intel Core i7-8700K,Intel UHD Graphics 630,6,3.7 GHz,4.7 GHz,295.00
+Intel Core i7-7700K,Intel HD Graphics 630,4,4.2 GHz,4.5 GHz,235.35
+Intel Core i7-6700K,Intel HD Graphics 530,4,4 GHz,4.2 GHz,406.41
+Intel Core i7-9700KF,None,8,3.6 GHz,4.9 GHz,352.35
+Intel Core i5-6600K,Intel HD Graphics 530,4,3.5 GHz,3.9 GHz,165.00
+Intel Core i5-8400,Intel UHD Graphics 630,6,2.8 GHz,4 GHz,195.00
+Intel Core i5-9600KF,None,6,3.7 GHz,4.6 GHz,176.34
+Intel Core i7-8700,Intel UHD Graphics 630,6,3.2 GHz,4.6 GHz,267.00
+Intel Core i3-9100F,None,4,3.6 GHz,4.2 GHz,129.31
+Intel Core i9-9900KF,None,8,3.6 GHz,5 GHz,425.00
+Intel Core i3-9100,Intel UHD Graphics 630,4,3.6 GHz,4.2 GHz,121.97
+Intel Core i5-9400,Intel UHD Graphics 630,6,2.9 GHz,4.1 GHz,144.59
+Intel Core i5-8600K,Intel UHD Graphics 630,6,3.6 GHz,4.3 GHz,295.00
+Intel Core i5-6500,Intel HD Graphics 530,4,3.2 GHz,3.6 GHz,190.00
+Intel Core i7-6700,Intel HD Graphics 530,4,3.4 GHz,4 GHz,250.00
+Intel Core i7-9700,Intel HD Graphics 630,8,3 GHz,4.7 GHz,279.97
+Intel Core i7-7700,Intel HD Graphics 630,4,3.6 GHz,4.2 GHz,285.00
+Intel Core i7-9700F,None,8,3 GHz,4.7 GHz,239.46
+Intel Core i5-7600K,Intel HD Graphics 630,4,3.8 GHz,4.2 GHz,245.00
+Intel Core i5-7400,Intel HD Graphics 630,4,3 GHz,3.5 GHz,190.00
+Intel Pentium Gold G5400,Intel UHD Graphics 610,2,3.7 GHz,,100.81
+Intel Core i5-7500,Intel HD Graphics 630,4,3.4 GHz,3.8 GHz,199.00
+Intel Core i5-6400,Intel HD Graphics 530,4,2.7 GHz,3.3 GHz,234.12
+Intel Core i9-9900K (Standard Folding Box),Intel UHD Graphics 630,8,3.6 GHz,5 GHz,969.99
+Intel Core i3-8100,Intel UHD Graphics 630,4,3.6 GHz,,165.00
+Intel Core i3-6100,Intel HD Graphics 530,2,3.7 GHz,,175.00
+Intel Core i5-9600KF,None,6,3.7 GHz,4.6 GHz,189.33
+Intel Core i9-9900,Intel UHD Graphics 630,8,3.1 GHz,5 GHz,350.99
+Intel Core i5-9500,Intel UHD Graphics 630,6,3 GHz,4.4 GHz,264.18
+Intel Core i5-6500,Intel HD Graphics 530,4,3.2 GHz,3.6 GHz,189.99
+Intel Core i7-8700,Intel UHD Graphics 630,6,3.2 GHz,4.6 GHz,375.59
+Intel Core i7-7700,Intel HD Graphics 630,4,3.6 GHz,4.2 GHz,381.89
+Intel Core i5-9500F,None,6,3 GHz,4.4 GHz,173.99
+Intel Core i5-7400,Intel HD Graphics 630,4,3 GHz,3.5 GHz,247.94
+Intel Core i5-8600,Intel UHD Graphics 630,6,3.1 GHz,4.3 GHz,350.00
+Intel Celeron G3900,Intel HD Graphics 510,2,2.8 GHz,,211.20
+Intel Pentium Gold G5420,Intel UHD Graphics 610,2,3.8 GHz,,88.35
+Intel Core i3-8100,Intel UHD Graphics 630,4,3.6 GHz,,215.00
+Intel Core i7-6700,Intel HD Graphics 530,4,3.4 GHz,4 GHz,418.04
+Intel Core i5-9400F,None,6,2.9 GHz,4.1 GHz,246.00
+Intel Xeon E-2124,None,4,3.3 GHz,4.3 GHz,610.00
+Intel Core i7-9700,Intel HD Graphics 630,8,3 GHz,4.7 GHz,355.00
+Intel Core i7-8700T,Intel UHD Graphics 630,6,2.4 GHz,4 GHz,296.89
+Intel Core i7-9700F,None,8,3 GHz,4.7 GHz,267.89
+Intel Xeon E-2124,None,4,3.3 GHz,4.3 GHz,196.79
+Intel Xeon E-2146G,Intel HD Graphics P630,6,3.5 GHz,4.5 GHz,307.47
+Intel Core i5-6400,Intel HD Graphics 530,4,2.7 GHz,3.3 GHz,373.55
+Intel Xeon E-2288G,Intel HD Graphics P630,8,3.7 GHz,5 GHz,895.29
+Intel Celeron G4900,Intel UHD Graphics 610,2,3.1 GHz,,175.00
+Intel Xeon E-2136,None,6,3.3 GHz,4.5 GHz,309.59
+Intel Core i5-7500,Intel HD Graphics 630,4,3.4 GHz,3.8 GHz,245.97
+Intel Xeon E-2286G,Intel HD Graphics P630,6,4 GHz,4.9 GHz,671.00
+Intel Core i5-9600,Intel UHD Graphics 630,6,3.1 GHz,4.6 GHz,435.16
+Intel Core i3-6100,Intel HD Graphics 530,2,3.7 GHz,,245.64
+Intel Xeon E3-1225 V6,Intel HD Graphics P630,4,3.3 GHz,3.7 GHz,323.16
+Name,Integrated Graphics,Core Count,Performance Core Clock,Performance Boost Clock,Price
+Intel Xeon E-2124G,Intel HD Graphics P630,4,3.4 GHz,4.5 GHz,479.05
+Intel Core i5-8600,Intel UHD Graphics 630,6,3.1 GHz,4.3 GHz,417.94
+Intel Xeon E3-1230 V6,None,4,3.5 GHz,3.9 GHz,380.00
+Intel Celeron G3930,Intel HD Graphics 610,2,2.9 GHz,,249.66
+Intel Xeon E3-1275 V6,Intel HD Graphics P630,4,3.8 GHz,4.2 GHz,750.00
+Intel Xeon E-2236,None,6,3.4 GHz,4.8 GHz,303.59
+Intel Xeon E-2134,None,4,3.5 GHz,4.5 GHz,337.14
+Intel Core i9-9900T,Intel UHD Graphics 630,8,2.1 GHz,4.4 GHz,353.43
+Intel Core i9-9900KS,Intel UHD Graphics 630,8,4 GHz,5 GHz,435.34
+Intel Core i9-9900K,Intel UHD Graphics 630,8,3.6 GHz,5 GHz,434.23
+Intel Core i3-8100T,Intel UHD Graphics 630,4,3.1 GHz,,237.30
+Intel Core i9-9900,Intel UHD Graphics 630,8,3.1 GHz,5 GHz,345.73
+Intel Core i7-9700T,Intel HD Graphics 630,8,2 GHz,4.3 GHz,378.82
+Intel Core i7-9700K,Intel UHD Graphics 630,8,3.6 GHz,4.9 GHz,325.46
+Intel Core i7-8700K,Intel UHD Graphics 630,6,3.7 GHz,4.7 GHz,314.33
+Intel Core i7-8086K,Intel UHD Graphics 630,6,4 GHz,5 GHz,346.32
+Intel Core i7-7700T,Intel HD Graphics 630,4,2.9 GHz,3.8 GHz,346.76
+Intel Core i7-7700T,Intel HD Graphics 630,4,2.9 GHz,3.8 GHz,336.82
+Intel Core i7-7700T,Intel HD Graphics 630,4,2.9 GHz,3.8 GHz,326.12
+Intel Core i7-7700K,Intel HD Graphics 630,4,4.2 GHz,4.5 GHz,321.23
+Intel Core i7-6700T,Intel HD Graphics 530,4,2.8 GHz,3.6 GHz,318.31
+Intel Core i7-6700T,Intel HD Graphics 530,4,2.8 GHz,3.6 GHz,315.43
+Intel Core i7-6700K,Intel HD Graphics 530,4,4 GHz,4.2 GHz,311.34
+Intel Core i5-9600T,Intel UHD Graphics 630,6,2.3 GHz,3.9 GHz,305.34
+Intel Core i5-9600K,Intel UHD Graphics 630,6,3.7 GHz,4.6 GHz,301.24
+Intel Core i5-9600K,Intel UHD Graphics 630,6,3.7 GHz,4.6 GHz,298.05
+Intel Core i5-9600,Intel UHD Graphics 630,6,3.1 GHz,4.6 GHz,289.34
+Intel Core i5-9400,Intel UHD Graphics 630,6,2.9 GHz,4.1 GHz,259.00
+Intel Core i5-9500T,Intel UHD Graphics 630,6,2.2 GHz,3.7 GHz,287.34
+Intel Xeon E-2274G,Intel HD Graphics P630,4,4 GHz,4.9 GHz,497.70
+Intel Xeon E-2176G,Intel HD Graphics P630,6,3.7 GHz,4.7 GHz,886.99
+Intel Core i5-9500F,None,6,3 GHz,4.4 GHz,289.35
+Intel Core i5-9500F,None,6,3 GHz,4.4 GHz,279.34
+Intel Core i5-9500,Intel UHD Graphics 630,6,3 GHz,4.4 GHz,256.34
+Intel Xeon E-2174G,Intel HD Graphics P630,4,3.8 GHz,4.7 GHz,350.39
+Intel Xeon E3-1220 V6,None,4,3 GHz,3.5 GHz,405.05
+Intel Xeon E3-1220 V6,None,4,3 GHz,3.5 GHz,242.78
+Intel Xeon E-2136,None,6,3.3 GHz,4.5 GHz,411.43
+Intel Xeon E3-1240 V6,None,4,3.7 GHz,4.1 GHz,886.99
+Name,Integrated Graphics,Core Count,Performance Core Clock,Performance Boost Clock,Price
+Intel Core i3-7350K,Intel HD Graphics 630,2,4.2 GHz,,478.12
+Intel Xeon E3-1275 V6,Intel HD Graphics P630,4,3.8 GHz,4.2 GHz,473.00
+Intel Xeon E3-1230 V6,None,4,3.5 GHz,3.9 GHz,579.99
+Intel Xeon E3-1270 V6,None,4,3.8 GHz,4.2 GHz,515.00

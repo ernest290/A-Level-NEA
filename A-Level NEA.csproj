@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2A8C337-DCD6-4A6B-8C65-1AD224AD31EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>A_Level_NEA</RootNamespace>
+    <AssemblyName>A-Level NEA</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-configuration-100.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.3.0, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.3\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert.Designer.cs">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_AccountSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_AccountSuccess.Designer.cs">
+      <DependentUpon>Alert_AccountSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_ChangePassword.Designer.cs">
+      <DependentUpon>Alert_ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_ConnectionClosed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_ConnectionClosed.Designer.cs">
+      <DependentUpon>Alert_ConnectionClosed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_CredsIncorrect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_CredsIncorrect.Designer.cs">
+      <DependentUpon>Alert_CredsIncorrect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_EmptyFields.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_EmptyFields.Designer.cs">
+      <DependentUpon>Alert_EmptyFields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_Error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_Error.Designer.cs">
+      <DependentUpon>Alert_Error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_InvalidEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_InvalidEmail.Designer.cs">
+      <DependentUpon>Alert_InvalidEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_LoginSuccesful.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_LoginSuccesful.Designer.cs">
+      <DependentUpon>Alert_LoginSuccesful.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_NotStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_NotStaff.Designer.cs">
+      <DependentUpon>Alert_NotStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_OldPassNotMatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_OldPassNotMatch.Designer.cs">
+      <DependentUpon>Alert_OldPassNotMatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_PassNotMatching.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_PassNotMatching.Designer.cs">
+      <DependentUpon>Alert_PassNotMatching.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_PassReq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_PassReq.Designer.cs">
+      <DependentUpon>Alert_PassReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_PassReqNotMet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_PassReqNotMet.Designer.cs">
+      <DependentUpon>Alert_PassReqNotMet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_Success.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alert_Success.Designer.cs">
+      <DependentUpon>Alert_Success.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Create_Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_Account.Designer.cs">
+      <DependentUpon>Create_Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database_Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database_Editor.Designer.cs">
+      <DependentUpon>Database_Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Menu.Designer.cs">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Template.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Template.Designer.cs">
+      <DependentUpon>Main_Template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PcBuilder_AdvIntel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PcBuilder_AdvIntel.Designer.cs">
+      <DependentUpon>PcBuilder_AdvIntel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PcBuilder_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PcBuilder_Main.Designer.cs">
+      <DependentUpon>PcBuilder_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff_Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff_Main_Menu.Designer.cs">
+      <DependentUpon>Staff_Main_Menu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Alert.resx">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_AccountSuccess.resx">
+      <DependentUpon>Alert_AccountSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_ChangePassword.resx">
+      <DependentUpon>Alert_ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_ConnectionClosed.resx">
+      <DependentUpon>Alert_ConnectionClosed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_CredsIncorrect.resx">
+      <DependentUpon>Alert_CredsIncorrect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_EmptyFields.resx">
+      <DependentUpon>Alert_EmptyFields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_Error.resx">
+      <DependentUpon>Alert_Error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_InvalidEmail.resx">
+      <DependentUpon>Alert_InvalidEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_LoginSuccesful.resx">
+      <DependentUpon>Alert_LoginSuccesful.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_NotStaff.resx">
+      <DependentUpon>Alert_NotStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_OldPassNotMatch.resx">
+      <DependentUpon>Alert_OldPassNotMatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_PassNotMatching.resx">
+      <DependentUpon>Alert_PassNotMatching.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_PassReq.resx">
+      <DependentUpon>Alert_PassReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_PassReqNotMet.resx">
+      <DependentUpon>Alert_PassReqNotMet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alert_Success.resx">
+      <DependentUpon>Alert_Success.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_Account.resx">
+      <DependentUpon>Create_Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Database_Editor.resx">
+      <DependentUpon>Database_Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Menu.resx">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Template.resx">
+      <DependentUpon>Main_Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PcBuilder_AdvIntel.resx">
+      <DependentUpon>PcBuilder_AdvIntel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PcBuilder_Main.resx">
+      <DependentUpon>PcBuilder_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff_Main_Menu.resx">
+      <DependentUpon>Staff_Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimise_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-connect-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-file-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-folder-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-connect-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-file-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-folder-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-storage-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-computer-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hot-price-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tag-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-sign-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-configuration-100.ico" />
+    <None Include="Resources\icons8-intel-corporation-an-american-multinational-corporation-and-technology-company-50.png" />
+    <None Include="Resources\icons8-amd-ryzen-50.png" />
+    <None Include="Resources\icons8-monitor-50.png" />
+    <None Include="Resources\icons8-eye-14.png" />
+    <None Include="Resources\icons8-eye-16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>
